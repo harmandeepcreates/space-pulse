@@ -19,9 +19,11 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}&thumbs=true`)
         }
     })
     .catch(error => {
-        console.error(error);
+    console.error(error);
 
-        document.getElementById("apod-title").textContent =
-            "Unable to load APOD";
+    document.getElementById("apod-title").textContent =
+        "Unable to load APOD";
 
-        document.getElementById("apod-description").
+    document.getElementById("apod-description").textContent =
+        "Something went wrong while fetching NASA data.";
+});
