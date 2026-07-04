@@ -129,6 +129,26 @@ button {
     color: #CBD5E1;
     font-size: 0.95rem;
 }
+/* NASA Mission Buttons */
+.mission-btn {
+    display: inline-block;
+    background: rgba(255,255,255,0.05);
+    color: #F5F7FA;
+    text-decoration: none;
+    padding: 18px 30px;
+    margin: 12px;
+    border-radius: 18px;
+    min-width: 220px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.mission-btn:hover {
+    transform: translateY(-5px);
+    background: rgba(56, 189, 248, 0.15);
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.25);
+}
 #apod-image {
     width: 100%;
     max-width: 700px;
