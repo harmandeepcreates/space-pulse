@@ -4,11 +4,12 @@ body {
     margin: 0;
     padding: 40px 8%;
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg, #050816, #0B1026, #131A3D);
+    background-image: url("spacepulse.png");
     color: #F5F7FA;
     line-height: 1.8;
     text-align: center;
 }
+
 
 /* Logo */
 .logo {
